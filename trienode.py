@@ -1,5 +1,6 @@
 class TrieNode:
     def __init__(self):
-        pass
+        self.children = [None] * 26
+        self.isEndOfWord = False
 
     
